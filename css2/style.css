@@ -336,7 +336,12 @@ li {
   display: flex;
   justify-content: space-between;
 }
-
+.articles-h2 {
+  max-width: 1640px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
 .price-div {
   max-width: 124px;
   width: 100%;
@@ -361,7 +366,7 @@ li {
 }
 .article2-line {
   display: flex;
-  justify-content: space-between;
+
   padding-bottom: 140px;
 }
 .full-footer {

@@ -226,7 +226,12 @@ li {
   font-family: regular;
   font-size: small;
 }
-
+.articles-h2 {
+  max-width: 1640px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
 .article1-div {
   display: flex;
   flex-direction: column;
@@ -235,9 +240,7 @@ li {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.article1-line a {
-  color: #000000cc;
-}
+
 .article-image1 {
   max-width: 100%;
   position: relative;
@@ -304,12 +307,16 @@ li {
   display: none;
 }
 .article1-line {
+  max-width: 1640px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
 .article2-line {
+  max-width: 1640px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
