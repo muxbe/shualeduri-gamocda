@@ -60,6 +60,7 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  align-items: center;
   max-width: 1640px;
   width: 100%;
   margin-top: 41px;
@@ -72,6 +73,8 @@ li {
   justify-content: center;
 }
 .jezlong-big {
+  max-height: 710px;
+  height: 100%;
   max-width: 810px;
   width: 100%;
   border-radius: 20px;
@@ -112,7 +115,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  vertical-align: middle;
+
+  height: 100%;
 }
 .detail-inside {
   max-width: 706px;
@@ -199,7 +203,6 @@ li {
   font-size: medium;
 }
 .detail-last {
-  padding-bottom: 28px;
   max-width: 706px;
   width: 100%;
   display: flex;
@@ -266,7 +269,6 @@ li {
   width: 100%;
 }
 .articles {
-  padding-left: 10px;
   max-width: 395px;
   width: 100%;
   background-color: #f8f8f8cc;
@@ -353,6 +355,8 @@ li {
 .article1-line {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .article2-line {
   display: flex;
